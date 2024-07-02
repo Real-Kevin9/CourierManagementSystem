@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #ffffff;
+    color: #7B0C0C;
+    border-bottom: none;
+}
+
+.card-header .btn-add-new {
+    background-color: #ffffff;
+    color: #7B0C0C;
+    border: 1px solid #7B0C0C;
+    margin-left: auto;
+}
+
+.card-header .btn-add-new:hover {
+    background-color: #e9ecef;
+    color: #7B0C0C;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.table thead th {
+    background-color: #7B0C0C;
+    color: white;
+}
+
+.table td, .table th {
+    vertical-align: middle !important;
+}
+
+.badge-pill {
+    padding: 5px 10px;
+}
+
+.btn-group .btn {
+    margin: 0 2px;
+    background-color: #e9ecef;
+    color:#7B0C0C;
+}
+
+.btn-group .btn:hover {
+    background-color:#ffffff;
+}
+
+.btn i {
+    margin-right: 5px;
+}

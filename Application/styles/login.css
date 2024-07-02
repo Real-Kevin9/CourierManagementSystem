@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+  }
+
+  .login-logo a {
+    color: #7B0C0C;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .login-card-body {
+    padding: 30px;
+  }
+
+  .input-group-text {
+    background: #e9ecef;
+    border: none;
+  }
+
+  .btn-primary {
+    background-color: #7B0C0C;
+    border-color: #7B0C0C;
+  }
+
+  .btn-primary:hover {
+    background-color: #5A0A0A;
+    border-color: #4A0808;
+  }
+
+  .icheck-primary input[type="checkbox"]:checked + label::before {
+    background-color: #7B0C0C;
+    border-color: #7B0C0C;
+  }
+
+  .icheck-primary label {
+    padding-left: 20px;
+  }
+
+  .alert {
+    margin-top: 15px;
+  }

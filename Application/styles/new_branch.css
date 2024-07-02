@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+  color: #7B0C0C;
+}
+
+.card {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .form-control {
+    border-radius: 5px;
+  }
+
+  .card-footer {
+    background-color: #f8f9fa;
+  }
+
+  .btn {
+    border-radius: 20px;
+  }
+
+  textarea {
+    resize: none;
+  }
